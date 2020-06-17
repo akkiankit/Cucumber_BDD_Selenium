@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: cucumber.Options.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 100.014 sec
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 568.849 s <<< FAILURE! - in cucumber.Options.TestRunner
+Check the Zug_Nr.User should be able to check ZUG_Nr  Time elapsed: 284.528 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="button" aria-label="Expand" class="rstcustom__expandButton"></button> is not clickable at point (818, 651). Other element would receive the click: <td class="sc-jWBwVP bgtyLv" id="cell">...</td>
+  (Session info: chrome=83.0.4103.97)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'ankits-mbp', ip: 'fe80:0:0:0:41e:5aa6:e698:dc80%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/g7/6s8wz7gn3_d...}, goog:chromeOptions: {debuggerAddress: localhost:56542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2ab3794f84c3a7c7e0dfc1d5ca4c220a
+

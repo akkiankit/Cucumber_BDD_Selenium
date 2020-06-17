@@ -1,4 +1,4 @@
-@first
+@tc1
 Feature: User Setting
 Scenario: User should be able to change the setting
 Given I opened the "baseURL"

@@ -3,11 +3,219 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-06-16T22:39:14.056Z",
+        "start_timestamp": "2020-06-17T20:02:49.568Z",
         "before": [
           {
             "result": {
-              "duration": 3298000000,
+              "duration": 2036000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.stepdefination.init()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should be able to change the setting",
+        "description": "",
+        "id": "user-setting;user-should-be-able-to-change-the-setting",
+        "after": [
+          {
+            "result": {
+              "duration": 103000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.stepdefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5519000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I opened the \"baseURL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"baseURL\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinations.stepdefination.i_opened_the(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 258000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I entered login details",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_entered_login_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 852000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I clicked on \"Einstellungen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Einstellungen\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinations.stepdefination.i_clicked_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 312000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I clicked on \"Benutzereinstellungen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Benutzereinstellungen\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinations.stepdefination.i_clicked_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1849000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select \"QS\" from select list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QS\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinations.stepdefination.i_select_from_select_list(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select \"Laufwege\" as a radio button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laufwege\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinations.stepdefination.i_select_as_a_radio_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click On save button",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_click_On_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I clicked on logout Button",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_logout_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 599000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I entered login details",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_entered_login_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1105000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verified Laufwege is Active in table",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_verified_is_Active_in_table()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tc1"
+          }
+        ]
+      }
+    ],
+    "name": "User Setting",
+    "description": "",
+    "id": "user-setting",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/UserSetting.feature",
+    "tags": [
+      {
+        "name": "@tc1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-17T20:03:02.439Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1444000000,
               "status": "passed"
             },
             "match": {
@@ -22,6 +230,7 @@
         "after": [
           {
             "result": {
+              "duration": 158000000,
               "status": "passed"
             },
             "match": {
@@ -34,7 +243,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5306000000,
+              "duration": 5630000000,
               "status": "passed"
             },
             "line": 5,
@@ -52,7 +261,7 @@
           },
           {
             "result": {
-              "duration": 304000000,
+              "duration": 253000000,
               "status": "passed"
             },
             "line": 6,
@@ -64,7 +273,7 @@
           },
           {
             "result": {
-              "duration": 10579000000,
+              "duration": 10571000000,
               "status": "passed"
             },
             "line": 7,
@@ -82,9 +291,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d83.0.4103.97)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.10.0\u0027, revision: \u0027176b4a9\u0027, time: \u00272018-03-02T19:03:16.397Z\u0027\nSystem info: host: \u0027ankits-mbp\u0027, ip: \u0027fe80:0:0:0:41e:5aa6:e698:dc80%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/g7/6s8wz7gn3_d...}, goog:chromeOptions: {debuggerAddress: localhost:55800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 4fe088db40463ce78eb42e2daf24a443\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)\n\tat POM.FilterPage.enterBriesbetten(FilterPage.java:140)\n\tat stepDefinations.stepdefination.i_entered_in_Betriebsstelle(stepdefination.java:198)\n\tat ✽.I entered \"AA\" in Betriebsstelle(file:///Users/bigdaddy/eclipse-workspace/Cucumber_BDD/src/test/java/features/check%20the%20Betriebsstelle.feature:8)\n",
-              "duration": 2202000000,
-              "status": "failed"
+              "duration": 2191000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I entered \"AA\" in Betriebsstelle",
@@ -101,7 +309,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1466000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "I clicked on saveFilter button",
@@ -112,7 +321,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 636000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "I clicked on laufage Button",
@@ -123,7 +333,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3386000000,
+              "status": "passed"
             },
             "line": 11,
             "name": "I clicked on Arrow Down for only first row",
@@ -134,7 +345,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 760000000,
+              "status": "passed"
             },
             "line": 12,
             "name": "I clicked on Arrow Right",
@@ -145,7 +357,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 129637000000,
+              "status": "passed"
             },
             "line": 13,
             "name": "I verified that \"AA\" is present at Detailansicht page",
@@ -162,24 +375,15 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 184000000,
+              "status": "passed"
             },
             "line": 14,
-            "name": "I verified that status of \"AA\" is \"OK\"",
+            "name": "I clicked on logout Button",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"AA\"",
-                  "offset": 26
-                },
-                {
-                  "val": "\"OK\"",
-                  "offset": 34
-                }
-              ],
-              "location": "stepDefinations.stepdefination.i_verified_that_status_of_is(java.lang.String,java.lang.String)"
+              "location": "stepDefinations.stepdefination.i_clicked_on_logout_Button()"
             },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ],
         "tags": [
@@ -197,6 +401,468 @@
     "tags": [
       {
         "name": "@tc4",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-17T20:05:38.768Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1317000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.stepdefination.init()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should be able to check the vorgangsummer",
+        "description": "",
+        "id": "check-vorgangsummer;user-should-be-able-to-check-the-vorgangsummer",
+        "after": [
+          {
+            "result": {
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.stepdefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15642000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I opened the \"baseURL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"baseURL\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinations.stepdefination.i_opened_the(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 259000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I entered login details",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_entered_login_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10613000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I clicked on \"logoIcon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"logoIcon\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinations.stepdefination.i_clicked_on(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4730000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I selected current Date",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_selected_current_Date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 735000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I clicked on saveFilter button",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_saveFilter_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3539000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I captured one of Vorgangs-Nr no",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_captured_one_of_Vorgangs_Nr_no()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1038000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I clicked on open Filter Button",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_open_Filter_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 212000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I entered captured Vurgang-Nr no",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_entered_captured_Vurgang_Nr_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1050000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I clicked on saveFilter button",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_saveFilter_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63168000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I clicked on Arrow Down",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_Arrow_Down()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6052000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I clicked on Arrow Right",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_Arrow_Right()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 815000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Verified that Vurgang-Nr details",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_Verified_that_Vurgang_Nr_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5254000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I clicked on logout Button",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_logout_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@second"
+          }
+        ]
+      }
+    ],
+    "name": "Check Vorgangsummer",
+    "description": "",
+    "id": "check-vorgangsummer",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/checktheVorgangsnummer.feature",
+    "tags": [
+      {
+        "name": "@second",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-17T20:07:33.325Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1563000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.stepdefination.init()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should be able to check ZUG_Nr",
+        "description": "",
+        "id": "check-the-zug-nr;user-should-be-able-to-check-zug-nr",
+        "after": [
+          {
+            "result": {
+              "duration": 468000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.stepdefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5890000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I opened the \"baseURL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"baseURL\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinations.stepdefination.i_opened_the(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5238000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I entered login details",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_entered_login_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15576000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I clicked on \"logoIcon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"logoIcon\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinations.stepdefination.i_clicked_on(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27970000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I selected current Date",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_selected_current_Date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6513000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I clicked on saveFilter button",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_saveFilter_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7613000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I clicked on laufage Button",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_laufage_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1067000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I captured one of Zug-Nr no",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_captured_one_of_Zug_Nr_no()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6175000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I clicked on open Filter Button",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_open_Filter_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1062000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I entered captured zug-Nr no",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_entered_captured_zug_Nr_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6309000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I clicked on saveFilter button",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_saveFilter_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cbutton type\u003d\"button\" aria-label\u003d\"Expand\" class\u003d\"rstcustom__expandButton\"\u003e\u003c/button\u003e is not clickable at point (818, 651). Other element would receive the click: \u003ctd class\u003d\"sc-jWBwVP bgtyLv\" id\u003d\"cell\"\u003e...\u003c/td\u003e\n  (Session info: chrome\u003d83.0.4103.97)\nBuild info: version: \u00273.10.0\u0027, revision: \u0027176b4a9\u0027, time: \u00272018-03-02T19:03:16.397Z\u0027\nSystem info: host: \u0027ankits-mbp\u0027, ip: \u0027fe80:0:0:0:41e:5aa6:e698:dc80%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/g7/6s8wz7gn3_d...}, goog:chromeOptions: {debuggerAddress: localhost:56542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2ab3794f84c3a7c7e0dfc1d5ca4c220a\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\n\tat POM.FilterPage.clickArrowDown(FilterPage.java:100)\n\tat stepDefinations.stepdefination.i_clicked_on_Arrow_Down(stepdefination.java:166)\n\tat ✽.I clicked on Arrow Down(file:///Users/bigdaddy/eclipse-workspace/Cucumber_BDD/src/test/java/features/checktheZug_Nr.feature:14)\n",
+              "duration": 199043000000,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "I clicked on Arrow Down",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_Arrow_Down()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I clicked on Arrow Right",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_Arrow_Right()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I verified Zug-Nr details",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_verified_Zug_Nr_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I clicked on logout Button",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_logout_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tc3"
+          }
+        ]
+      }
+    ],
+    "name": "Check the Zug_Nr",
+    "description": "",
+    "id": "check-the-zug-nr",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/checktheZug_Nr.feature",
+    "tags": [
+      {
+        "name": "@tc3",
         "type": "Tag",
         "location": {
           "line": 1,

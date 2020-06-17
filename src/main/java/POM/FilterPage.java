@@ -97,7 +97,6 @@ public class FilterPage {
 		
 		Boolean dis = driver.findElements(arrowdown1).size()>0;
 		while(dis) {
-			System.out.println(dis);
 			driver.findElement(arrowdown1).click();	
 			try {
 				dis = driver.findElements(arrowdown1).size()>0;
@@ -116,7 +115,6 @@ public class FilterPage {
 	
 	public void clickArrowRight(int index) {
 		List<WebElement> arrowrightbtns = driver.findElements(arrowRight);
-		System.out.println("arrow right button count is : "+ arrowrightbtns.size());
 		for(int i=0; i < arrowrightbtns.size(); i++) {
 			if(index == i) {
 				arrowrightbtns.get(i).click();
@@ -126,21 +124,16 @@ public class FilterPage {
 	}
 	
 	public void enterBriesbetten(String option) {
-		
 		actions = new Actions(driver);
-		
 		actions.moveToElement(driver.findElement(betrie));
-		
 		driver.findElement(betrie).sendKeys(option);
-		
 		List<WebElement> opts = driver.findElements(betrieselect);
 		System.out.println(opts.size());
-		
 		for(WebElement op:opts) {
 			System.out.println(op.getText());
 			if(op.getText().contains(option)) {
-				
-				op.click();;
+				op.click();
+				break;
 			}
 		}
 	}

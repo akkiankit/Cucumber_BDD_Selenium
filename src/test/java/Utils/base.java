@@ -22,11 +22,19 @@ public class base {
 		return prop.getProperty(key);
 	}
 	
+	
+	public static String getReportConfigPath() throws IOException{
+	 String reportConfigPath = getDataProperties("reportConfigPath");
+	 if(reportConfigPath!= null) return reportConfigPath;
+	 else throw new RuntimeException("Report Config Path not specified in the Configuration.properties file for the Key:reportConfigPath"); 
+	}
+	
 	public WebDriver initializedriver() throws IOException {
 		
 		String browserName = getDataProperties("browser");
 		if(browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Driver/chromedriver");
+			System.setProperty("webdriver.chrome.silentOutput","true");
 			driver = new ChromeDriver();
 		}else if(browserName.equalsIgnoreCase("Firefox")) {
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/Driver/geckodriver");

@@ -11,4 +11,4 @@ And I clicked on laufage Button
 And I clicked on Arrow Down for only first row
 And I clicked on Arrow Right
 Then I verified that "AA" is present at Detailansicht page
-And I verified that status of "AA" is "OK"
+Then I clicked on logout Button

@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+
 import static org.junit.Assert.*;
 import POM.Benutzereinstellungen_Page;
 import POM.Detailansicht;
@@ -17,9 +18,9 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
+
 public class stepdefination extends base {
 	
-//	private base base;
 	public static loginPage lp;
 	public static HomePage hp;
 	public static Benutzereinstellungen_Page bp;
@@ -27,10 +28,7 @@ public class stepdefination extends base {
 	public static String vurgangs_Nr;
 	public static Detailansicht dp;
 	public static String Zug_Nr;
-	
 	 
-	 
-
 	@Before
 	public void init() throws IOException {
 		driver = initializedriver();
@@ -39,13 +37,12 @@ public class stepdefination extends base {
 	@After
 	public void tearDown() throws InterruptedException {
 		//Thread.sleep(1000);
-		//driver.quit();
+		driver.quit();
 	}
 	
 	@Given("I opened the {string}")
 	public void i_opened_the(String Baseurl) throws IOException {
 		driver.get(getDataProperties(Baseurl));
-		System.out.println(getDataProperties(Baseurl));
 	}
 	
 	@And("I entered login details")
@@ -206,8 +203,10 @@ public class stepdefination extends base {
 	
 	
 	@Then("I verified that {string} is present at Detailansicht page")
-	public void i_verified_that_is_present_at_Detailansicht_page(String string) {
-	    
+	public void i_verified_that_is_present_at_Detailansicht_page(String ExpectedValue) throws InterruptedException {
+	    Thread.sleep(500);
+	    dp = new Detailansicht(driver);
+	   assertEquals(dp.getCellData(ExpectedValue), ExpectedValue);
 	}
 	
 	@Then("I verified that status of {string} is {string}")
