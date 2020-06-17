@@ -1,0 +1,208 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-16T22:39:14.056Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3298000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.stepdefination.init()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should be able to check the Betriebsstelle",
+        "description": "",
+        "id": "check-the-betriebsstelle;user-should-be-able-to-check-the-betriebsstelle",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.stepdefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5306000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I opened the \"baseURL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"baseURL\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinations.stepdefination.i_opened_the(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 304000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I entered login details",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_entered_login_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10579000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I clicked on \"logoIcon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"logoIcon\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinations.stepdefination.i_clicked_on(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d83.0.4103.97)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.10.0\u0027, revision: \u0027176b4a9\u0027, time: \u00272018-03-02T19:03:16.397Z\u0027\nSystem info: host: \u0027ankits-mbp\u0027, ip: \u0027fe80:0:0:0:41e:5aa6:e698:dc80%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/g7/6s8wz7gn3_d...}, goog:chromeOptions: {debuggerAddress: localhost:55800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 4fe088db40463ce78eb42e2daf24a443\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)\n\tat POM.FilterPage.enterBriesbetten(FilterPage.java:140)\n\tat stepDefinations.stepdefination.i_entered_in_Betriebsstelle(stepdefination.java:198)\n\tat ✽.I entered \"AA\" in Betriebsstelle(file:///Users/bigdaddy/eclipse-workspace/Cucumber_BDD/src/test/java/features/check%20the%20Betriebsstelle.feature:8)\n",
+              "duration": 2202000000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I entered \"AA\" in Betriebsstelle",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AA\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefinations.stepdefination.i_entered_in_Betriebsstelle(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I clicked on saveFilter button",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_saveFilter_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I clicked on laufage Button",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_laufage_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I clicked on Arrow Down for only first row",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_Arrow_Down_for_only_first_row()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I clicked on Arrow Right",
+            "match": {
+              "location": "stepDefinations.stepdefination.i_clicked_on_Arrow_Right()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I verified that \"AA\" is present at Detailansicht page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AA\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.stepdefination.i_verified_that_is_present_at_Detailansicht_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I verified that status of \"AA\" is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AA\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinations.stepdefination.i_verified_that_status_of_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tc4"
+          }
+        ]
+      }
+    ],
+    "name": "Check the Betriebsstelle",
+    "description": "",
+    "id": "check-the-betriebsstelle",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/check%20the%20Betriebsstelle.feature",
+    "tags": [
+      {
+        "name": "@tc4",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
