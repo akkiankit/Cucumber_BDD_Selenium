@@ -31,7 +31,13 @@ public class base {
 	
 	public WebDriver initializedriver() throws IOException {
 		
-		String browserName = getDataProperties("browser");
+		//String browserName = getDataProperties("browser");
+		//String browserName = System.getProperty("browserName");
+		String browserName = System.getProperty("BROWSER");
+		if(browserName == null) {
+			browserName = getDataProperties("browser");
+		}
+		
 		if(browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Driver/chromedriver");
 			System.setProperty("webdriver.chrome.silentOutput","true");
