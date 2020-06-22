@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		features="src/test/java/features",
 		plugin="json:target/jsonReports/cucumber-report.json",
 		glue ="stepDefinations"
-		//,tags ="@tc1"
+		,tags ="@tc4"
 		
 		)
 

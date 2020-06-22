@@ -32,7 +32,6 @@ public class base {
 	public WebDriver initializedriver() throws IOException {
 		
 		//String browserName = getDataProperties("browser");
-		//String browserName = System.getProperty("browserName");
 		String browserName = System.getProperty("BROWSER");
 		if(browserName == null) {
 			browserName = getDataProperties("browser");

@@ -3,30 +3,30 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-06-18T22:47:26.548Z",
+        "start_timestamp": "2020-06-22T16:18:32.217Z",
         "before": [
           {
             "result": {
-              "duration": 4399000000,
+              "duration": 2292000000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinations.stepdefination.init()"
+              "location": "stepDefinations.Hooks.init()"
             }
           }
         ],
-        "line": 3,
-        "name": "User should be able to change the setting",
+        "line": 4,
+        "name": "User should be able to check the Betriebsstelle",
         "description": "",
-        "id": "user-setting;user-should-be-able-to-change-the-setting",
+        "id": "check-the-betriebsstelle;user-should-be-able-to-check-the-betriebsstelle",
         "after": [
           {
             "result": {
-              "duration": 929000000,
+              "duration": 132000000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinations.stepdefination.tearDown()"
+              "location": "stepDefinations.Hooks.tearDown()"
             }
           }
         ],
@@ -35,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 5005000000,
+              "duration": 5119000000,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I opened the \"baseURL\"",
             "match": {
               "arguments": [
@@ -47,158 +47,152 @@
                   "offset": 13
                 }
               ],
-              "location": "stepDefinations.stepdefination.i_opened_the(java.lang.String)"
+              "location": "stepDefinations.Step_UserSetting.i_opened_the(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 403000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I entered login details",
-            "match": {
-              "location": "stepDefinations.stepdefination.i_entered_login_details()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1808000000,
+              "duration": 316000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "I clicked on \"Einstellungen\"",
+            "name": "I entered login details",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Einstellungen\"",
-                  "offset": 13
-                }
-              ],
-              "location": "stepDefinations.stepdefination.i_clicked_on(java.lang.String)"
+              "location": "stepDefinations.Step_UserSetting.i_entered_login_details()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1184000000,
+              "duration": 10593000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "I clicked on \"Benutzereinstellungen\"",
+            "name": "I clicked on \"logoIcon\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Benutzereinstellungen\"",
+                  "val": "\"logoIcon\"",
                   "offset": 13
                 }
               ],
-              "location": "stepDefinations.stepdefination.i_clicked_on(java.lang.String)"
+              "location": "stepDefinations.Step_UserSetting.i_clicked_on(java.lang.String)"
             },
-            "keyword": "And "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 273000000,
+              "duration": 2247000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I select \"QS\" from select list",
+            "name": "I entered \"AA\" in Betriebsstelle",
             "match": {
               "arguments": [
                 {
-                  "val": "\"QS\"",
-                  "offset": 9
+                  "val": "\"AA\"",
+                  "offset": 10
                 }
               ],
-              "location": "stepDefinations.stepdefination.i_select_from_select_list(java.lang.String)"
+              "location": "stepDefinations.Step_Check_the_Betriebsstelle.i_entered_in_Betriebsstelle(java.lang.String)"
             },
-            "keyword": "Then "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 399000000,
+              "duration": 1573000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "I select \"Laufwege\" as a radio button",
+            "name": "I clicked on saveFilter button",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Laufwege\"",
-                  "offset": 9
-                }
-              ],
-              "location": "stepDefinations.stepdefination.i_select_as_a_radio_button(java.lang.String)"
+              "location": "stepDefinations.Step_CheckVorgangsnummer.i_clicked_on_saveFilter_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 219000000,
+              "duration": 691000000,
               "status": "passed"
             },
             "line": 10,
-            "name": "I click On save button",
+            "name": "I clicked on laufage Button",
             "match": {
-              "location": "stepDefinations.stepdefination.i_click_On_save_button()"
+              "location": "stepDefinations.Step_ChecktheZug.i_clicked_on_laufage_Button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 239000000,
+              "duration": 2715000000,
               "status": "passed"
             },
             "line": 11,
-            "name": "I clicked on logout Button",
+            "name": "I clicked on Arrow Down for only first row",
             "match": {
-              "location": "stepDefinations.stepdefination.i_clicked_on_logout_Button()"
+              "location": "stepDefinations.Step_Check_the_Betriebsstelle.i_clicked_on_Arrow_Down_for_only_first_row()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 943000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I clicked on Arrow Right",
+            "match": {
+              "location": "stepDefinations.Step_CheckVorgangsnummer.i_clicked_on_Arrow_Right()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129605000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verified that \"AA\" is present at Detailansicht page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AA\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.Step_Check_the_Betriebsstelle.i_verified_that_is_present_at_Detailansicht_page(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1439000000,
+              "duration": 196000000,
               "status": "passed"
             },
-            "line": 12,
-            "name": "I entered login details",
+            "line": 14,
+            "name": "I clicked on logout Button",
             "match": {
-              "location": "stepDefinations.stepdefination.i_entered_login_details()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 259000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I verified Laufwege is Active in table",
-            "match": {
-              "location": "stepDefinations.stepdefination.i_verified_is_Active_in_table()"
+              "location": "stepDefinations.Step_UserSetting.i_clicked_on_logout_Button()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@tc1"
+            "name": "@tc4"
           }
         ]
       }
     ],
-    "name": "User Setting",
+    "name": "Check the Betriebsstelle",
     "description": "",
-    "id": "user-setting",
+    "id": "check-the-betriebsstelle",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/UserSetting.feature",
+    "uri": "file:src/test/java/features/check%20the%20Betriebsstelle.feature",
     "tags": [
       {
-        "name": "@tc1",
+        "name": "@tc4",
         "type": "Tag",
         "location": {
           "line": 1,

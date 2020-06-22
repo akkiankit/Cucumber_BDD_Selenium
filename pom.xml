@@ -24,6 +24,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
 	                    <systemPropertyVariables>
 	                    	<BROWSER>${env.BROWSER}</BROWSER>
+	                    	<tag>${env.tag}</tag>
 	                    </systemPropertyVariables>
                 </configuration>
             </plugin>
